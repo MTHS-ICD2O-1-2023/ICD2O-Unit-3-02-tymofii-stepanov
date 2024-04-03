@@ -1,17 +1,51 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="443" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1034" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="2" target="3">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="440" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="310" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="310" y="310" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360.0833333333335" y="790" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="450" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="310" y="850" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="510" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Enter in length of right &lt;br&gt;rectangular pyramid&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="267.5" y="420" width="185" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Volume = (l * W * H)&amp;nbsp; /&amp;nbsp; 3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="560" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360.0833333333335" y="790" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;" edge="1" parent="1" source="10" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Show = Volume" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="296.25" y="700" width="127.5" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
