@@ -25,22 +25,22 @@
         <img src="./images/pyramid.png" alt="formula image" style="position:absolute; top:0; right:0; width:250px; height:250;" />
       </div>
       <br />
-      <div class="page-content">Enter integers for dimensions:</div>
+      <div class="page-content">Enter integers for dimensions: (in mm)</div>
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="a-base" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-mm" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="a-base">A Base</label>
+          <label class="mdl-textfield__label" for="a-base">Length:</label>
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a number.</span>
         </div>
         <br />
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-base" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-mm" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="b-base">B Base</label>
+          <label class="mdl-textfield__label" for="b-base">Width:</label>
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a number.</span>
         </div>
@@ -49,7 +49,7 @@
           <!-- input pattern attribute -->
           <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-mm" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="height-mm">Height</label>
+          <label class="mdl-textfield__label" for="height-mm">Height:</label>
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a number.</span>
         </div>
@@ -62,7 +62,7 @@
       </form>
       <br />
       <div class="page-content-answer">
-        <div id="area"></div>
+        <div id="volume"></div>
       </div>
     </main>
   </div>
